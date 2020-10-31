@@ -1,3 +1,4 @@
+//import 'dart:html';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -31,14 +33,26 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'List view divider',
-            ),
-          ],
+      body: SafeArea(
+        child: ListView.builder(
+          itemCount: listData.length,
+          itemBuilder: (BuildContext context, int index) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Поле # ${listData[index]}',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
+                ),
+                Divider(
+                  thickness: 1,
+                ),
+              ],
+            );
+          },
         ),
       ),
     );

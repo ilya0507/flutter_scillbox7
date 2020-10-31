@@ -5,10 +5,25 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/04_StatefulStatelessWidget/list_view_keys_scroll/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/04_StatefulStatelessWidget/list_view_keys_scroll/build" />
+      <excludeFolder url="file://$MODULE_DIR$/05_MaterialCupertino/simple_app/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/05_MaterialCupertino/simple_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/05_MaterialCupertino/simple_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/horizontal_list/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/horizontal_list/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/horizontal_list/build" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/list_view_divider/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/list_view_divider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/list_view_divider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/sliver_widgets/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/sliver_widgets/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/sliver_widgets/build" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/text_field_styled/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/text_field_styled/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/06_Layout/text_field_styled/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
